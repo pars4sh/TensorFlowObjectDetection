@@ -34,4 +34,8 @@ If not, resolve installation errors by referring to the <a href="https://github.
 <pre>cd Tensorflow/workspace/models/my_ssd_mobnet/eval</pre>
 and open Tensorboard with the following command
 <pre>tensorboard --logdir=.</pre>
-Tensorboard will be accessible through your browser and you will be able to see metrics including mAP - mean Average Precision, and Recall.
+Tensorboard will be accessible through your browser and you will be able to see metrics including mAP - mean Average Precision, and Recall. <br/><br/>
+## Acknowledgements
+- The pre-trained model "SSD MobileNet V2 FPNLite 320x320" is provided by [TensorFlow 2 Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md).
+- Custom data preparation was facilitated using [LabelImg by Tzutalin GitHub user](https://github.com/HumanSignal/labelImg).
+- This project was inspired by the tutorials of nicknochnack on YouTube. [Check out the tutorials here](https://www.youtube.com/c/nicholasrenotte).
