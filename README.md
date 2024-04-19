@@ -22,15 +22,15 @@ python -m pip install --upgrade pip
 pip install ipykernel
 python -m ipykernel install --user --name=[your-environment-name]
 </pre> <br/><br/>
-5. Collect images using the Notebook 1. Image Collection.ipynb - ensure you change the kernel to the virtual environment <br/><br/>
-6. Manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders. <br/>
+5. Collect images using the Notebook <a href="https://github.com/pars4sh/TensorFlowObjectDetection/blob/main/1.%20Image%20Collection.ipynb">1. Image Collection.ipynb</a> - ensure you change the kernel to the virtual environment <br/><br/>
+7. Manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders. <br/>
 \TensorFlowObjectDetection\Tensorflow\workspace\images\train <br/>
 \TensorFlowObjectDetection\Tensorflow\workspace\images\test <br/><br/>
-7. Begin training process by opening 2. Training and Detection.ipynb, this notebook will walk you through installing Tensorflow Object Detection, making detections, saving and exporting your model. <br/><br/>
-8. During this process the Notebook will install Tensorflow Object Detection. You should ideally receive a notification indicating that the API has installed successfully at Step 8 with the last line stating OK. 
-If not, resolve installation errors by referring to the Error Guide.md in this folder. <br/><br/>
-9. Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics. <br/><br/>
-10. You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g.
+8. Begin training process by opening <a href="https://github.com/pars4sh/TensorFlowObjectDetection/blob/main/2.%20Training%20and%20Detection.ipynb">2. Training and Detection.ipynb</a>, this notebook will walk you through installing Tensorflow Object Detection, making detections, saving and exporting your model. <br/><br/>
+9. During this process the Notebook will install Tensorflow Object Detection. You should ideally receive a notification indicating that the API has installed successfully at Step 8 with the last line stating OK. 
+If not, resolve installation errors by referring to the <a href="https://github.com/pars4sh/TensorFlowObjectDetection/blob/main/Error%20Guide.md">Error Guide.md</a> in this folder. <br/><br/>
+10. Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics. <br/><br/>
+11. You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g.
 <pre>cd Tensorflow/workspace/models/my_ssd_mobnet/eval</pre>
 and open Tensorboard with the following command
 <pre>tensorboard --logdir=.</pre>
