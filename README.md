@@ -38,4 +38,4 @@ Tensorboard will be accessible through your browser and you will be able to see 
 ## Acknowledgements
 - The pre-trained model "SSD MobileNet V2 FPNLite 320x320" is provided by [TensorFlow 2 Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md).
 - Custom data preparation was facilitated using [LabelImg by Tzutalin GitHub user](https://github.com/HumanSignal/labelImg).
-- This project was inspired by the tutorials of nicknochnack on YouTube. [Check out the tutorials here](https://www.youtube.com/c/nicholasrenotte).
+- This project was inspired by the tutorials of [nicknochnack](https://github.com/nicknochnack) on YouTube. [Check out the tutorials here](https://www.youtube.com/c/nicholasrenotte).
